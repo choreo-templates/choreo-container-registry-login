@@ -1,0 +1,10 @@
+name: 'Choreo Container Registry Login'
+description: 'Choreo Container Registry Login'
+inputs:
+  type:
+    description: 'Container Registry Type'
+    required: false
+    default: 'ACR'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
