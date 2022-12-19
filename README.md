@@ -13,5 +13,5 @@ This action configs the login to contianer regisrty based on the tye. Defualt on
 ```yaml
 uses: choreo-templates/choreo-container-registry-login@v1.0
 with:
-  tyoe: 'ACR'
+  type: 'ACR'
 ```
